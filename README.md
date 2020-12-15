@@ -2,4 +2,4 @@
 
 ### Preview: 
 
-<img src="ico/WayaMoney-Download-Landing-Page.gif" width="100%">
+<img src="public/ico/WayaMoney-Download-Landing-Page.gif" width="100%">
