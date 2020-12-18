@@ -14,6 +14,8 @@ html, body{
 
 *{
 	outline: none;
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
 }
 
 a{
