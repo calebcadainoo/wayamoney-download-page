@@ -96,6 +96,7 @@ a{
 
 .app-web-sign-up{
 	padding: 17px 35px;
+	text-align: center;
 	color: #fff;
 	background: var(--waya-fandango);
 	font-size: 14px;
