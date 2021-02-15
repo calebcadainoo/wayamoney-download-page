@@ -139,7 +139,7 @@ a{
 	z-index: 34;
 	background:var(--waya-phone-cover);
 	backdrop-filter: blur(400px);
-	padding: 10px 5px;
+	/* padding: 10px 5px; */
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 	margin-bottom: 20px;
 	/* transition: 0.2s all linear;
@@ -161,11 +161,11 @@ a{
 
 .app-background{
 	display: table;
-	background: var(--waya-phone-cover);
+	/* background: var(--waya-phone-cover); */
 	border-radius: 10px;
 	overflow: hidden;
 	position: relative;
-	z-index: 34;
+	z-index: 34; 
 }
 
 .app-preview img{
