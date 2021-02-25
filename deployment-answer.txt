@@ -1,0 +1,24 @@
+Question: How would you deploy this application to production?
+Answer 1:
+To answer this question; I would like to make one (1) declaration and then some assumptions:
+Declaration 1: I am not aware or informed on the deployment practice and standards of WebFX as a Software Development Company.
+Assumption 1: Since every company has its internal policy and standard when it comes to deployment pipelines for CI/CD; I will assume there is one sandbox environment, sandbox testers, a push to a branch on sandbox, and then if there is no issue a push to production.
+Assumption 2: I am going to assume I have the access to merge code from branch to master and from sandbox to production.
+Assumption 3: I am going to assume WebFX runs their entire system on AWS.
+
+And so to answer the question; Deploying the Monograph Dashboard to production will be done in the following steps:
+1) After building & testing on my local and ensuring that my developments are pushed regularly to a branch on sandbox; I would inform the person in charge of my completion when I make my last push to my assigned branch on sandbox.
+2) I believe there will be a review of my code; if there are no conflicts or issues then I will merge my branch with the main on sandbox.
+3) Once the testers have tested my completed project on sandbox main and everything is stable with no issues. I will go ahead and make a push from sandbox main to production main.
+4) Once project is on production main, project will be deployed to our hosting server on AWS; a domain name owned by WebFX will be pointed to it.
+
+
+
+Answer 2:
+But looking as this application is a website, I feel I should also share how I would deploy a website;
+I am going to assume this is a personal project built from scratch and outline the steps in the deploying the website:
+1) I would purchase the domain name after confirming its availability and also purchase a hosting plan.
+2) On purchase I will be given my login credentials for my access to Cpanel; after logging in to Cpanel, I will go through the file upload process and upload all my website project files.
+3) My uploaded project files will be uploaded to the server my hosting plan comes with.
+4) Once uploaded successfully my website will now be live.
+
